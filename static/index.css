@@ -1,9 +1,12 @@
 @keyframes changeColor {
-    from {
+    0% {
         color: aliceblue;
     }
-    to {
+    50% {
         color: rebeccapurple;
+    }
+    100%{
+        color: aliceblue;
     }
 }
 
