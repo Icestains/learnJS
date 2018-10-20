@@ -1,0 +1,12 @@
+@keyframes changeColor {
+    from {
+        color: aliceblue;
+    }
+    to {
+        color: rebeccapurple;
+    }
+}
+
+h1 {
+    animation: changeColor 1s infinite;
+}
